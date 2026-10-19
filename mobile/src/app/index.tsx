@@ -8,8 +8,7 @@ import { ThemedText } from '@/components/themed-text';
 import { ThemedView } from '@/components/themed-view';
 import { Spacing } from '@/constants/theme';
 
-const SERVER_URL = 'http://10.20.0.2:5001';
-
+const SERVER_URL = 'http://192.168.29.28:5001';
 type Lead = {
   id: string;
   name?: string;
